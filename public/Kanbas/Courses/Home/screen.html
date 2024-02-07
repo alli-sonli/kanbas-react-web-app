@@ -17,20 +17,20 @@
         <div class="d-none d-md-block">
             <ul class="wd-kanbas-navigation">
                 <li><a href="http://northeastern.edu"><img src="/Kanbas/logo.png" width="60" height="55"></a></li>
-                <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa fa-user-o"
+                <li><a href="/Kanbas/Account/Profile/screen.html"><i class="fa-regular fa-user-o"
                             style="color:grey"></i>Account</a></li>
                 <li>
                     <a href="/Kanbas/Dashboard/screen.html">
-                        <i class="fa fa-tachometer"></i> Dashboard</a>
+                        <i class="fa fa-gauge"></i> Dashboard</a>
                 </li>
                 <li class="wd-active"><a href="/Kanbas/Courses/Home/screen.html"><i class="fa fa-book"></i>Courses</a>
                 </li>
-                <li><a href="#"><i class="fa fa-calendar"></i>Calendar</a></li>
+                <li><a href="#"><i class="fa-regular fa-calendar"></i>Calendar</a></li>
                 <li><a href="#"><i class="fa fa-inbox"></i><br>Inbox</a></li>
-                <li><a href="#"><i class="fa fa-clock-o"></i>History</a></li>
+                <li><a href="#"><i class="fa-regular fa-clock-o"></i>History</a></li>
                 <li><a href="#"><i class="fa fa-television"></i>Studio</a></li>
-                <li><a href="#"><i class="fa fa-share-square"></i>Commons</a></li>
-                <li class="bottom"><a href="#"><i class="fa fa-question-circle-o"></i><br>Help</a></li>
+                <li><a href="#"><i class="fa-regular fa-share-square"></i>Commons</a></li>
+                <li class="bottom"><a href="#"><i class="fa-regular fa-question-circle-o"></i><br>Help</a></li>
             </ul>
         </div>
         <div class="flex-fill">
@@ -91,10 +91,10 @@
                     <ul class="list-group wd-modules">
                         <li class="list-group-item">
                             <div>
-                                <i class="fa fa-ellipsis-v"></i> Week 0 - INTRO
+                                <i class="fa fa-ellipsis-v"></i> <i class="fa fa-caret-down fa-xs"></i> Week 0 - INTRO
                                 <span class="float-end">
                                     <i class="fa fa-check-circle text-success"></i>
-                                    <i class="fa fa-plus ms-2"></i>
+                                    <i class="fa fa-plus ms-2" style="color: grey;"></i>
                                     <i class="fa fa-ellipsis-v ms-2"></i>
                                 </span>
                             </div>
@@ -175,8 +175,9 @@
                             </ul>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <i class="fa fa-ellipsis-v"></i>&emsp;<i class="fa fa-link"></i> <a href="#"
+                                    <i class="fa fa-ellipsis-v"></i>&emsp;<i class="fa fa-link" style="color: green"></i> <a href="#"
                                         class="slide-link">Introduction to Web Development</a>
+                                        <i class="fa fa-arrow-up-right-from-square fa-xs" style="color: brown;"></i>
                                     <span class="float-end">
                                         <i class="fa fa-check-circle text-success"></i>
                                         <i class="fa fa-ellipsis-v ms-2"></i>
@@ -185,8 +186,9 @@
                             </ul>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <i class="fa fa-ellipsis-v"></i>&emsp;<i class="fa fa-link"></i> <a href="#"
+                                    <i class="fa fa-ellipsis-v"></i>&emsp;<i class="fa fa-link" style="color: green"></i> <a href="#"
                                         class="slide-link">Creating an HTTP server with Node.js</a>
+                                        <i class="fa fa-arrow-up-right-from-square fa-xs" style="color: brown;"></i>
                                     <span class="float-end">
                                         <i class="fa fa-check-circle text-success"></i>
                                         <i class="fa fa-ellipsis-v ms-2"></i>
@@ -196,10 +198,10 @@
                         </li>
                         <li class="list-group-item">
                             <div>
-                                <i class="fa fa-ellipsis-v"></i> Week 2
+                                <i class="fa fa-ellipsis-v"></i> <i class="fa fa-caret-down fa-xs"></i> Week 2
                                 <span class="float-end">
                                     <i class="fa fa-check-circle text-success"></i>
-                                    <i class="fa fa-plus ms-2"></i>
+                                    <i class="fa fa-plus ms-2" style="color: grey;"></i>
                                     <i class="fa fa-ellipsis-v ms-2"></i>
                                 </span>
                             </div>
@@ -268,8 +270,9 @@
                             </ul>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <i class="fa fa-ellipsis-v"></i>&emsp;<i class="fa fa-link"></i> <a href="#"
+                                    <i class="fa fa-ellipsis-v"></i>&emsp;<i class="fa fa-link" style="color: green"></i> <a href="#"
                                         class="slide-link">Creating a React Application</a>
+                                        <i class="fa fa-arrow-up-right-from-square fa-xs" style="color: brown;"></i>
                                     <span class="float-end">
                                         <i class="fa fa-check-circle text-success"></i>
                                         <i class="fa fa-ellipsis-v ms-2"></i>
@@ -280,31 +283,42 @@
                     </ul>
                 </div>
                 <div class="status">
-                    <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px">
-                        <p style="font-size: 18;">Course Status</p>
-                        <button class="button"><i class="fa fa-ban"></i> Unpublish</button><button class="button"
+                    <div class="flex-grow-0 me-2 d-none d-lg-block" style="width: 250px; margin-left: 40px;">
+                        <p style="font-size: 17; margin-bottom: 0px;">Course Status</p>
+                        <button class="status-button"><i class="fa fa-ban"></i> Unpublish</button><button class="status-button"
                             style="background-color: rgb(145, 211, 145);" disabled="true"><i
                                 class="fa fa-check-circle text-success" style="color: white;"></i> Published</button>
                         <br>
                         <br>
-                        <button class="button" style="width: 225px;"><i class="fa fa-file-import"></i>Import Existing
+                        <div>
+                        <button class="status-button" style="width: 225px;"><i class="fa fa-file-import"></i>Import Existing
                             Content</button>
-                        <button class="button" style="width: 225px;"><i class="fa fa-share-square"></i>Import From
+                        <button class="status-button" style="width: 225px;"><i class="fa fa-share-square"></i>Import From
                             Commons</button>
-                        <button class="button" style="width: 225px;"><i class="fa fa-location-crosshairs"></i>Choose
+                        <button class="status-button" style="width: 225px;"><i class="fa fa-location-crosshairs"></i>Choose
                             Home Page</button>
-                        <button class="button" style="width: 225px;"><i class="fa fa-chart-column"></i>View Course
+                        <button class="status-button" style="width: 225px;"><i class="fa fa-chart-column"></i>View Course
                             Stream</button>
-                        <button class="button" style="width: 225px;"><i class="fa fa-bullhorn"></i>New
+                        <button class="status-button" style="width: 225px;"><i class="fa fa-bullhorn"></i>New
                             Announcement</button>
-                        <button class="button" style="width: 225px;"><i class="fa fa-chart-column"></i>New
+                        <button class="status-button" style="width: 225px;"><i class="fa fa-chart-column"></i>New
                             Analytics</button>
-                        <button class="button" style="width: 225px;"><i class="fa fa-bell"></i>View Course
+                        <button class="status-button" style="width: 225px;"><i class="fa fa-bell"></i>View Course
                             Notifications</button>
+                        </div>
                             <br>
-                            <br>
-                            <p style="font-size: small; font-weight: bold;">To Do</p>
-                            <hr>
+                            <p style="font-size: small; font-weight: bold; margin-bottom: 5px;">To Do</p>
+                            <hr style="margin-bottom: 5px; margin-top: 5px;">
+                            <i class="fa fa-circle-exclamation" style="color: brown;"></i> <a href="#" style="color: brown; font-size: small; text-decoration: none;">Grade A1 - ENV + HTML</a>
+                            <span class="float-end"><i class="fa fa-xmark" style="color: grey;"></i></span>
+                            <p style="font-size: smaller; color: grey;">&emsp;100 points <i class="fa fa-circle fa-2xs" style="color: grey;"></i> Sep 18 at 11:59pm</p>
+                            <p style="font-size: small; font-weight: bold; margin-bottom: 5px;">Coming Up</p>
+                            <hr style="margin-bottom: 5px; margin-top: 5px;">
+                            <i class="fa-regular fa-calendar"></i> <a href="#" style="color: brown; font-size: small; text-decoration: none;">Lecture</a>
+                            <p style="font-size: smaller; color: grey;">&emsp;CS4550.12631.202410<br>&emsp;Sep 11 at 11:45am</p>
+                            <i class="fa-regular fa-calendar"></i> <a href="#" style="color: brown; font-size: small; text-decoration: none;">CS5610 06 SP23 Lecture</a>
+                            <p style="font-size: smaller; color: grey;">&emsp;CS4550.12631.202410<br>&emsp;Sep 11 at 6pm</p>
+
                     </div>
                 </div>
             </div>

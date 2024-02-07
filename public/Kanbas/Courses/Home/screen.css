@@ -18,12 +18,14 @@
     flex-direction: column;
 }
 
-.d-flex > .flex-fill > .flex-row-container > .status {
-    margin-left: 40px;
-}
-
-.d-flex > .flex-fill > .flex-row-container > .status > .buttons {
+.status-button {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+    text-align: left;
     width: 100px;
+    margin-top: 5px;
 }
 
 .d-flex > .flex-fill > .d-none.d-md-block > .flex-row-container1 {

@@ -1,16 +1,16 @@
 .modbutton {
     background-color: rgb(211, 18, 18);
-    color:white;
+    color: white;
     border: 0px;
     border-radius: 4px;
-    padding:7px;
+    padding: 5px;
 }
 
 .button {
     border: 1px solid grey;
     outline: 1px;
     border-radius: 4px;
-    padding: 7px;
+    padding: 4px;
     font-size: medium;
     text-align: left;
 }
@@ -22,33 +22,35 @@
 
 .wd-modules,
 .wd-modules * {
-  border-radius: 0%;
-  border: none;
-  margin: 0px;
-  padding: 0px;
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .wd-modules {
-  margin: 5px;
+    margin: 5px;
 }
 
-.wd-modules > li {
-  background-color: lightgray;
-  border: 1px solid gray !important;
-  border-left: none !important;
+.wd-modules>li {
+    background-color: rgb(233, 233, 233);
+    border: 1px solid gray !important;
+    border-left: none !important;
 }
 
-.wd-modules > li > div {
-  padding: 6px;
-  border-left: 1px solid gray !important;
+.wd-modules>li>div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 6px;
+    border-left: 1px solid grey !important;
 }
 
-.wd-modules > li > ul > li {
-  padding: 5px;
-  border-top: 1px solid gray !important;
-  border-left: 3.5px solid green;
+.wd-modules>li>ul>li {
+    padding: 5px;
+    border-top: 1px solid gray !important;
+    border-left: 3.5px solid green;
 }
 
-.wd-modules > li {
-  margin-bottom: 20px;
+.wd-modules>li {
+    margin-bottom: 20px;
 }
