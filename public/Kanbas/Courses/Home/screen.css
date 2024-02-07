@@ -1,0 +1,38 @@
+.black-bar {
+    background-color: black;
+    width: auto;
+    height: 30px;
+}
+
+.button-black {
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: medium;
+}
+
+.d-flex > .flex-fill {
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex > .flex-fill > .flex-row-container > .status {
+    margin-left: 40px;
+}
+
+.d-flex > .flex-fill > .flex-row-container > .status > .buttons {
+    width: 100px;
+}
+
+.d-flex > .flex-fill > .d-none.d-md-block > .flex-row-container1 {
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.d-flex > .flex-fill > .flex-row-container {
+    display: flex;
+    flex-direction: row;
+}

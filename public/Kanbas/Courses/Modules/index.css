@@ -1,0 +1,54 @@
+.modbutton {
+    background-color: rgb(211, 18, 18);
+    color:white;
+    border: 0px;
+    border-radius: 4px;
+    padding:7px;
+}
+
+.button {
+    border: 1px solid grey;
+    outline: 1px;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: medium;
+    text-align: left;
+}
+
+
+.slide-link {
+    color: rgb(211, 18, 18);
+}
+
+.wd-modules,
+.wd-modules * {
+  border-radius: 0%;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wd-modules {
+  margin: 5px;
+}
+
+.wd-modules > li {
+  background-color: lightgray;
+  border: 1px solid gray !important;
+  border-left: none !important;
+}
+
+.wd-modules > li > div {
+  padding: 6px;
+  border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+  padding: 5px;
+  border-top: 1px solid gray !important;
+  border-left: 3.5px solid green;
+}
+
+.wd-modules > li {
+  margin-bottom: 20px;
+}
