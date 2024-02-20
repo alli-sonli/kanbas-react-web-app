@@ -1,0 +1,17 @@
+.col {
+    padding-top: 10px;
+}
+
+.courses-subheading {
+    padding-left: 15px;
+    font-weight: normal;
+}
+
+.courses {
+    padding-left: 15px;
+}
+
+.card-text {
+    color: grey;
+    font-size: small;
+}
