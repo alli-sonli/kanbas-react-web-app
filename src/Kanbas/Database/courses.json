@@ -1,4 +1,4 @@
-[ { "_id": "CHRM01", "name": "Intro to Charms", "number": "CHRM101", "startDate": "2024-01-10",
+[ { "_id": "CHRM101", "name": "Intro to Charms", "number": "CHRM101", "startDate": "2024-01-10",
     "endDate": "2024-05-15", "image": "charms.png", "section": "Section 3" },
   { "_id": "POTN101", "name": "Intro to Potions", "number": "POTN101", "startDate": "2024-01-10",
     "endDate": "2024-05-15", "image": "potions.png", "section": "Section 1"  },

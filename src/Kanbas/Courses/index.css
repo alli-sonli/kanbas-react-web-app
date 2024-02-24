@@ -1,7 +1,24 @@
-.header {
+.float-container {
     color: brown;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 50px;
 }
 
-.fa-2 {
-    size: 30px;
+.float-child-1 {
+    width: 35px;
+    float: left;
+}
+
+.float-child-2 {
+    width: 500px;
+    float: left;
+}
+
+.float-child-3 {
+    float:right;
+}
+
+.header .logo {
+    size: 1em;
 }
