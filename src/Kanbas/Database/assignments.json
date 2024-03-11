@@ -1,0 +1,11 @@
+[
+    { "_id": "A101", "title": "History of Charm Assignment", "course": "CHRM101" },
+    { "_id": "A102", "title": "Basic Charms Assignment", "course": "CHRM101" },
+    { "_id": "A103", "title": "Charms Project", "course": "CHRM101" },
+    { "_id": "A201", "title": "Potions Quiz", "course": "POTN101" },
+    { "_id": "A202", "title": "History of Potions Assignment", "course": "POTN101" },
+    { "_id": "A203", "title": "Basics of Potions Project", "course": "POTN101" },
+    { "_id": "A301", "title": "Defense History Assignment", "course": "DADA101" },
+    { "_id": "A302", "title": "Curses Quiz", "course": "DADA101" },
+    { "_id": "A303", "title": "Defense Curse Project", "course": "DADA101" }
+  ]

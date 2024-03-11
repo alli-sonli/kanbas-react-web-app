@@ -1,0 +1,6 @@
+[ { "_id": "CHRM101", "name": "Intro to Charms", "number": "CHRM101", "startDate": "2024-01-10",
+    "endDate": "2024-05-15", "image": "charms.png", "section": "Section 3" },
+  { "_id": "POTN101", "name": "Intro to Potions", "number": "POTN101", "startDate": "2024-01-10",
+    "endDate": "2024-05-15", "image": "potions.png", "section": "Section 1"  },
+  { "_id": "DADA101", "name": "Intro to Dark Arts", "number": "DADA101", "startDate": "2024-01-10",
+    "endDate": "2024-05-15", "image": "datda.jpeg", "section": "Section 2"  } ]

@@ -1,0 +1,62 @@
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+button.percent-button {
+    border: 1px solid grey;
+    outline: 1px;
+    border-radius: 13px;
+    padding: 2px;
+    font-size: small;
+    text-align: left;
+}
+
+.red-tiny-text {
+    margin-bottom: 0px;
+    padding-left: 45px;
+    font-size: smaller;
+    color: brown;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tiny-text {
+    margin-bottom: 0px;
+    font-size: smaller;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+li.list-group-item {
+    padding-bottom: 0px;
+}
+
+.list-group {
+    display: block;
+}
+
+input {
+    padding: 8px;
+    font-size: smaller;
+}
+
+.button1 {
+    border: 1px solid grey;
+    outline: 1px;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: medium;
+    text-align: left;
+}
+
+.button-red {
+    border: 1px solid grey;
+    outline: 1px;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: medium;
+    text-align: left;
+    background-color: brown;
+    color: white
+}
