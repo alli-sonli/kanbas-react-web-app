@@ -1,6 +1,6 @@
 [
     {
-      "_id": "CHRM101",
+      "_id": "M1",
       "name": "Introduction to Charms",
       "description": "Teaching basic charms.",
       "course": "CHRM101",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "_id": "CHRM101",
+      "_id": "M2",
       "name": "Charms Basics",
       "description": "Teaching basic charms.",
       "course": "CHRM101",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "_id": "CHRM101",
+      "_id": "M3",
       "name": "Intermediate Charms",
       "description": "Teaching intermediate charms.",
       "course": "CHRM101",
@@ -78,7 +78,7 @@
       ]
     },
     {
-        "_id": "POTN101",
+        "_id": "P1",
         "name": "Introduction to Potions",
         "description": "Teaching basic potions.",
         "course": "POTN101",
@@ -104,7 +104,7 @@
         ]
       },
       {
-        "_id": "POTN101",
+        "_id": "P2",
         "name": "Potions Basics",
         "description": "Teaching basic potions.",
         "course": "POTN101",
@@ -130,7 +130,7 @@
         ]
       },
     {
-        "_id": "POTN101",
+        "_id": "P3",
         "name": "Intermediate Potions",
         "description": "Teaching intermediate potions.",
         "course": "POTN101",
@@ -156,7 +156,7 @@
         ]
       },
       {
-        "_id": "DADA101",
+        "_id": "D1",
         "name": "Introduction to Defense Against the Dark Arts",
         "description": "Teaching basic defenses.",
         "course": "DADA101",
@@ -182,7 +182,7 @@
         ]
       },
       {
-        "_id": "DADA101",
+        "_id": "D2",
         "name": "Curses Basics",
         "description": "Teaching basic cures.",
         "course": "DADA101",
@@ -208,7 +208,7 @@
         ]
       },
       {
-        "_id": "DADA101",
+        "_id": "D3",
         "name": "Intermediate Curses",
         "description": "Teaching intermediate curses.",
         "course": "DADA101",

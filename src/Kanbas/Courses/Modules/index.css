@@ -1,3 +1,17 @@
+  .child {
+    width: 50%;
+    display: inline-block;
+  }
+
+  .child>input {
+    width: max-content;
+  }
+
+  .child>textarea {
+    width: max-content;
+    height: min-content;
+  }
+
 .modbutton {
     background-color: rgb(211, 18, 18);
     color: white;
@@ -54,3 +68,10 @@
 .wd-modules>li {
     margin-bottom: 20px;
 }
+
+.description {
+    padding-top: 0px;
+    font-size: smaller;
+    color: grey;
+}
+
